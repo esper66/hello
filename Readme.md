@@ -7,7 +7,7 @@
    - 初期化
 
 2. 作成したファイルをローカルリポジトリにためる
-   - git add newfile
+   - git add file
    - git commit -m "first commit"
 
 3. どこのrepositoryにコミットするかを選択(最初だけ)

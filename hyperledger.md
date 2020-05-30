@@ -1,4 +1,26 @@
 # hyperledger
+* 基本的に、v1.4を使うべきだと思う。
+* アプリケーションのイメージが違った。アプリケーションはあくまで、fabricを束ねるという意味でのアプリケーションっぽい
+  - node.jsへのRESTでアクセス
+  - golangで開発ができるが、公式ではないので、後回しかな
+
+* chaincodeはgolangを使用
+
+
+## 参考URL
+[hyperledger note](https://note.com/masa_and_tomo/n/n0b82cef2b02b)
+
+[概念がわかる](https://www.slideshare.net/oracle4engineer/ochacafe-4-hyperledger-fabric)
+
+[基本これを参考に](https://hyperledger-fabric.readthedocs.io/en/release-1.4/prereqs.html)
+
+[ibm](https://www.ibm.com/developerworks/jp/cloud/library/cl-hyperledger-fabric-basic-6/index.html)
+
+[これもいい感じ](https://blockchain.cyberagent.studio/blog/290/)
+
+[安心な感じ](https://qiita.com/kyrieleison/items/ec5223bbe6140822df4a)
+
+
 [hyperledger note](https://note.com/masa_and_tomo/n/n0b82cef2b02b)
 
 
@@ -89,10 +111,3 @@ Peerの中には「台帳」と台帳にアクセスするための「チェー�
 4. ユーザーはCAに自分自身のIDとSecretをCAに伝えます。
 
 5. CAはユーザーのIDとSecretを照合し、ブロックチェーンにアクセスするための証明書（Ecerts）をユーザーに発行します。
-
-
-# docker
-
-[Docker とほほ](http://www.tohoho-web.com/docker/)
-
-# docker-compose

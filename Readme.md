@@ -32,3 +32,17 @@
    - nameブランチを作成
 - git checkout name
    - nameブランチに切り替え
+
+## pull reqへの道のり
+```
+作業途中でremoteのmasterが変わってしまった場合
+```
+1. もし、作業途中のものでcommit出来るものがあればcommitしておく
+2. masterブランチへ移動
+   - git checkout master
+3. git pullでmasterを最新に
+   - git pull origin master
+4. 開発用ブランチへ移動
+   - git checkout 開発用ブランチ
+5. mergeコマンドでmaserの内容を取り込む
+   - git merge origin/master

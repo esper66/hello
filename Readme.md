@@ -46,3 +46,9 @@
    - git checkout 開発用ブランチ
 5. mergeコマンドでmaserの内容を取り込む
    - git merge origin/master
+   
+## ファイル編集
+- 名前の変更
+   - git mv old.txt new.txt
+- 削除
+   - git rm hoge

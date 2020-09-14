@@ -23,3 +23,12 @@
 ### 注意
 * 先にReadmeを作成している場合は、先にpullする必要がある。
 * git pull = git fetch + git merge origin/master
+
+
+## branch
+- git branch 
+   - 現在のブランチ一覧を表示
+- git branch name
+   - nameブランチを作成
+- git checkout name
+   - nameブランチに切り替え
